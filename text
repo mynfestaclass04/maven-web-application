@@ -1,0 +1,4 @@
+#!/bin/bash
+echo 'testing our file for host-to-container copy'
+echo 'this should go smoothly'
+date
