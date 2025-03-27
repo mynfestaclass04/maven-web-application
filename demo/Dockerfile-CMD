@@ -1,0 +1,7 @@
+FROM centos:7
+RUN mkdir /local 
+RUN touch /local/test.sh 
+RUN echo Welcome to Nfesta technologies >> /local/test.sh
+COPY . .
+CMD [ "echo", "From our CMD Class04" ]
+CMD [ "echo", "From our CMD Class05" ]

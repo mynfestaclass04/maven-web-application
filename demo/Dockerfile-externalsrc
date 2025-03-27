@@ -1,0 +1,2 @@
+FROM tomcat:9-jre9-slim
+ADD https://github.com/nfestaclass02/maven-web-application/blob/master/Dockerfile

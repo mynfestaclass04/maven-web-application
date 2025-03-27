@@ -1,0 +1,6 @@
+FROM ubuntu
+RUN mkdir /app 
+RUN touch /app/test.sh 
+RUN echo Welcome to Nfesta technologies >> /app/test.sh
+COPY . .
+ENTRYPOINT [ "echo", "From our CMD Class04" ]
