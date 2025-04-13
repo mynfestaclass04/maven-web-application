@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nfesta Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.144.9.18:8000/repository/jenkins_docker/</url>
+	      <url>http://54.152.212.119:7000/repository/Docker_repos/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
